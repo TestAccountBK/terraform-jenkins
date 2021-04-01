@@ -6,7 +6,6 @@ provider "aws" {
 terraform {
     backend "s3" {
         bucket = "javahome-tf-1212-bk"
-        key = "terraform.tfstate"
         region = "us-east-1"
     }
 }
