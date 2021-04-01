@@ -1,5 +1,5 @@
 ###Section 12: Jenkins and terraform integration
-provider {
+provider "aws" {
     region = "${var.region}"
 }
 
