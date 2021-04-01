@@ -1,3 +1,4 @@
+###Section 12: Jenkins and terraform integration
 variable "region" {
     default = "us-east-1"
 }
